@@ -1,0 +1,20 @@
+Daný projek nájde všetky kostry v zadanom neorientovanom grafe.
+
+Program predpokladá iba validné vstupy, kde každý vrchol je reprezentovaný jedným veľkým písmenom anglickej abecedy a to v tvare:
+<V1> <V2>\n
+<V3> <V4>\n
+...
+kde <Vn> je vrchol.
+
+Výstupm sú následne všetky kostry v tvare:
+<V1>-<V2> <V3>-<V4> ... <Vn-1>-<Vn>\n
+...
+
+
+Spustenie programu
+
+Po zadaní príkazu make je program preložený a následne ho je možné sputiť príkazom:
+./flp20-log < input
+kde input je vstupny subor.
+
+Pre demonštráciu je možné využiť vstupný súbor input.in.
