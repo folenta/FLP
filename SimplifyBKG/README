@@ -1,0 +1,24 @@
+FLP Project 1 - Simplify BKG
+Author: Ján Folenta (xfolen00)
+Date: 11.4.2021
+
+Main goal of this project is to simplify given context-free grammar. Grammar can be read
+from a file or stdin. Output of the project can be input grammar, grammar after step 1 of algorithm 
+or grammar without unnescesary grammar rules. Which output is printed depends on chosen option. 
+
+Program simplify-bkg is created using the command make which compiles project using ghc.
+Then program is run using:
+    ./simplify-bkg option [input-file]
+Option can be:
+    -i -> program validates input grammar and prints it
+    -1 -> program executes first step of algorithm and prints the result
+    -2 -> program simplifies input grammar and prints the result
+
+Example of input grammar:
+A,B,S
+a,b
+S
+A->AB
+B->b
+S->A
+S->a
